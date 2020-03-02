@@ -1,0 +1,19 @@
+[package]
+name = "icub3d_sudoku_solver"
+description = "A sudoku solver."
+license = "MIT"
+license-file = "LICENSE"
+version = "0.1.0"
+authors = ["Joshua Marsh (icub3d) <joshua@themarshians.com>"]
+edition = "2018"
+repository = "https://git.themarshians.com/icub3d/sudoku-solver"
+keywords = ["sudoku", "solver", "games"]
+categories = ["algorithms", "games"]
+readme = "README.md"
+
+# See more keys and their definitions at
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+failure = "0.1.6"
+regex = "1.3.4"
